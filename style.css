@@ -1,0 +1,60 @@
+body {
+	margin: auto;
+	color: #2f80ed;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.main{
+	width: 520px;
+	margin:110px auto 0 auto;
+	/*background: green;*/
+
+}
+
+.h1{
+	margin: 0;
+	margin: auto;
+	font-size: 800%;
+	background: red;
+	width: 420px;
+	/*height: 140px;*/
+	font-weight: 15;
+	margin-top: 10px;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+
+.text{
+	margin: 280px auto 30px auto;
+	text-align: center;
+	/*background-color: white;*/
+	width: 420px;
+
+}
+
+.hoovertext{
+	visibility: hidden;
+	margin: 22px auto auto auto;
+	width: 415px;
+
+
+}
+
+.h1:hover + .hoovertext{
+	visibility: visible;
+	text-align: justify;
+	margin: auto;
+	margin-top: 22px;
+	/*background-color: pink;*/
+	width: 420px;
+	left: 25%;
+	right: 25%;
+	transition: transform 2s;
+
+}
+
+a{
+	color: #2f80ed;
+}
